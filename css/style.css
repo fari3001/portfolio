@@ -47,7 +47,7 @@ body {
   color: white;
 }
 
-section {
+#hero {
   height: 100%;
   width: 100%;
 }
@@ -101,6 +101,78 @@ img {
           justify-content: center;
   text-align: justify;
   text-align-last: center;
+}
+
+.language {
+  display: block;
+  width: 100%;
+}
+
+.language .language-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.language .language-icons i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 250px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 200px;
+}
+
+.language .language-icons .fa-css3-alt {
+  color: #FFA500;
+}
+
+.language .language-icons .fa-css3-alt:hover {
+  opacity: 0.5;
+}
+
+.language .language-icons .fa-html5 {
+  color: #f06529;
+}
+
+.language .language-icons .fa-html5:hover {
+  opacity: 0.5;
+}
+
+.language .language-icons .fa-sass {
+  color: #cd6799;
+}
+
+.language .language-icons .fa-sass:hover {
+  opacity: 0.5;
+}
+
+.language .language-icons .fa-gem {
+  color: red;
+}
+
+.language .language-icons .fa-gem:hover {
+  opacity: 0.5;
+}
+
+.language h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: underline;
 }
 
 @media (max-width: 48em) {
