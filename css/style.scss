@@ -1,3 +1,5 @@
+@import 'services';
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -31,6 +33,7 @@ body {
 .navbar .link:active {
     color: black;
     background: white;
+    border-radius: 10px;
 }
 
 .navbar .brand {
@@ -48,6 +51,8 @@ body {
     padding: 1em;
     color: white;
 }
+
+
 
 // Hero Image
 
@@ -97,7 +102,6 @@ img {
 
 // Icons - Coding Languages
 
-
 .language {
     display: block;
     width: 100%;
@@ -117,39 +121,41 @@ img {
         }
 
         .fa-css3-alt {
-            color: #FFA500;
+            color: #B49162;
 
             &:hover {
-                opacity: 0.5;
+                color: #FFA500;
             }
         }
 
         .fa-html5 {
-            color: #f06529;
+            color: #B49162;
 
             &:hover {
-                opacity: 0.5;
+                color: #f06529;
             }
         }
 
         .fa-sass {
-            color: #cd6799;
+            color: #B49162;
 
             &:hover {
-                opacity: 0.5;
+                color: #cd6799;
             }
         }
 
         .fa-gem {
-            color: red;
+            color: #B49162;
 
             &:hover {
-                opacity: 0.5;
+                color: red;
             }
         }
 
-
     }
+
+
+
 
     h2 {
         display: flex;
@@ -164,37 +170,32 @@ img {
 .blogs {
     display: flex;
     width: 100%;
+    object-fit: contain;
+}
 
 
-    #blog-image {
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+
+    p {
         display: flex;
-        flex: 1;
-        object-fit: contain;
-        margin-left: 20px;
+        text-align-last: center;
+
+
     }
 
-    .description {
+    h2 {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-left: 20px;
-
-        p {
-            display: flex;
-            text-align-last: center;
-
-
-        }
-
-        h2 {
-            display: flex;
-
-            font-family: 'Open Sans', sans-serif;
-            text-decoration: underline;
-        }
+        font-family: 'Open Sans', sans-serif;
+        text-decoration: underline;
     }
 }
+
 
 // Social Media icons 
 
@@ -212,19 +213,35 @@ img {
         margin-bottom: 20px;
 
         .fa-github-square {
-            color: #F1502F;
+            color: #B49162;
+
+            &:hover {
+                color: #F1502F;
+            }
         }
 
         .fa-twitter-square {
-            color: #38A1F3;
+            color: #B49162;
+
+            &:hover {
+                color: #F1502F;
+            }
         }
 
         .fa-linkedin {
-            color: #0077B5;
+            color: #B49162;
+
+            &:hover {
+                color: #F1502F;
+            }
         }
 
         .fa-instagram {
-            color: #834AB4;
+            color: #B49162;
+
+            &:hover {
+                color: #F1502F;
+            }
         }
     }
 
@@ -240,14 +257,19 @@ img {
     width: 100%;
     background: black;
 
+    input {
+        display: flex;
+        margin-left: auto;
+        width: 20%;
+    }
+
 
 
 
     .footer-menu {
         display: flex;
-        width: 30%;
-        flex-direction: column;
-
+        width: 60%;
+        flex-direction: row;
 
         a {
             display: flex;
@@ -444,36 +466,7 @@ img {
 }
 
 // Services Section
-.services-page {
-    padding: 0;
-    box-sizing: border-box;
-}
 
-.services-section {
-    background: url(../images/blog-pic.png);
-    background-size: cover;
-    padding: 60px 0;
-}
-
-.inner-width {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 20px;
-    overflow: hidden;
-}
-
-.section-title {
-    text-align: center;
-    color: #ddd;
-    text-transform: uppercase;
-    font-size: 30px;
-}
-
-.border {
-    width: 160px;
-    height: 2px;
-}
 
 
 
@@ -508,6 +501,13 @@ img {
     .footer-cont {
         display: flex;
         width: 100%;
+        flex-direction: column;
+
+        input {
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
 
         .footer-menu {
             display: flex;
@@ -529,9 +529,6 @@ img {
         img {
             display: flex;
             width: 100%;
-
-
-
         }
 
         .description {
