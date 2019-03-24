@@ -393,6 +393,55 @@ img {
     background: purple;
 }
 
+// Projects Page 
+.projects-page {
+    padding: 0;
+    border: none;
+    outline: none;
+    vertical-align: baseline;
+    font-size: 100%;
+    width: 100%;
+    background: white;
+}
+
+#project-head {
+    margin: 100px 0 200px 120px;
+}
+
+#project-head p {
+    width: 60%;
+    margin-top: 10px;
+}
+
+.work {
+    text-align: center;
+    width: 100%;
+}
+
+.work img {
+    margin: 1%;
+    width: 45%;
+}
+
+.header2 {
+    margin: 130px 0 80px 40px;
+}
+
+.work2 {
+    width: 100%;
+    text-align: center;
+
+    img {
+        margin: 1%;
+        width: 94%;
+    }
+}
+
+#project-footer {
+    text-align: center;
+    color: grey;
+    margin: 60px auto;
+}
 
 
 // Media Queries Below
@@ -439,6 +488,7 @@ img {
         width: 100%;
         flex-direction: column;
 
+
         #blog-image {
             margin: 0;
         }
@@ -479,7 +529,45 @@ img {
             }
         }
     }
+
+    #project-head {
+        text-align: left;
+        margin: 100px 0 100px 30px;
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 12px;
+            width: 90%;
+        }
+    }
+
+    .work img {
+        margin: 2%;
+        width: 90%;
+    }
+
+    .header2 {
+        margin: 130px 0 40px 12px;
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 12px;
+            width: 90%;
+        }
+    }
+
+    .work2 img {
+        margin: 2%;
+    }
+
 }
+
 
 // Desktop
 @media (min-width: 48em) {
