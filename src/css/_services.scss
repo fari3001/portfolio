@@ -100,11 +100,26 @@
     .service-box {
         max-width: 45%;
     }
+
+    .services-section {
+        height: 1600px;
+    }
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    text-align: center;
+
+    tr {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:768px) {
     .service-box {
-        max-width: 50%;
+        max-width: 100%;
     }
 }
 

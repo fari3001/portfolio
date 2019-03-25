@@ -128,11 +128,30 @@
   .service-box {
     max-width: 45%;
   }
+  .services-section {
+    height: 1600px;
+  }
+}
+
+.table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  text-align: center;
+}
+
+.table tr {
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
   .service-box {
-    max-width: 50%;
+    max-width: 100%;
   }
 }
 
@@ -362,6 +381,26 @@ img {
   text-decoration: underline;
 }
 
+.description form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: white;
+  width: 25%;
+}
+
+.description form button {
+  -webkit-box-flex: display;
+      -ms-flex: display;
+          flex: display;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: black;
+  border-radius: 50px;
+  height: 60px;
+}
+
 .social-media {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -401,7 +440,7 @@ img {
 }
 
 .social-media .social-icons .fa-twitter-square:hover {
-  color: #F1502F;
+  color: #38A1F3;
 }
 
 .social-media .social-icons .fa-linkedin {
@@ -409,7 +448,7 @@ img {
 }
 
 .social-media .social-icons .fa-linkedin:hover {
-  color: #F1502F;
+  color: #0077B5;
 }
 
 .social-media .social-icons .fa-instagram {
@@ -417,7 +456,7 @@ img {
 }
 
 .social-media .social-icons .fa-instagram:hover {
-  color: #F1502F;
+  color: #8134AF;
 }
 
 .social-media h2 {

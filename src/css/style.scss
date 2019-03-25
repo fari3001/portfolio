@@ -194,6 +194,24 @@ img {
         font-family: 'Open Sans', sans-serif;
         text-decoration: underline;
     }
+
+    form {
+        display: flex;
+        background: white;
+        width: 25%;
+
+
+
+        button {
+            flex: display;
+            width: 100%;
+            font-family: 'Roboto', sans-serif;
+            font-size: 25px;
+            color: black;
+            border-radius: 50px;
+            height: 60px;
+        }
+    }
 }
 
 
@@ -224,7 +242,7 @@ img {
             color: #B49162;
 
             &:hover {
-                color: #F1502F;
+                color: #38A1F3;
             }
         }
 
@@ -232,7 +250,7 @@ img {
             color: #B49162;
 
             &:hover {
-                color: #F1502F;
+                color: #0077B5;
             }
         }
 
@@ -240,7 +258,7 @@ img {
             color: #B49162;
 
             &:hover {
-                color: #F1502F;
+                color: #8134AF;
             }
         }
     }
