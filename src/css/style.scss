@@ -199,17 +199,19 @@ img {
         display: flex;
         background: white;
         width: 25%;
-
-
+        justify-content: center;
+        margin-top: 20px;
 
         button {
             flex: display;
-            width: 100%;
+            width: 85%;
+            border: black;
             font-family: 'Roboto', sans-serif;
             font-size: 25px;
-            color: black;
+            color: white;
             border-radius: 50px;
             height: 60px;
+            background-color: black;
         }
     }
 }

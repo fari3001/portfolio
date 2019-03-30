@@ -387,18 +387,24 @@ img {
   display: flex;
   background: white;
   width: 25%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
 }
 
 .description form button {
   -webkit-box-flex: display;
       -ms-flex: display;
           flex: display;
-  width: 100%;
+  width: 85%;
+  border: black;
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
-  color: black;
+  color: white;
   border-radius: 50px;
   height: 60px;
+  background-color: black;
 }
 
 .social-media {
